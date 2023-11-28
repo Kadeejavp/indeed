@@ -1,0 +1,423 @@
+body{
+    font-family: 'Noto Sans', sans-serif;
+}
+
+a{
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#header{
+    padding-left: 1em;
+    overflow: hidden;
+    border-bottom: 1px solid #d9cccc;
+    display: flex;
+}
+
+.name{
+    height: 60px;
+    float: left;
+}
+
+.logo{
+    height: 48px;
+    padding-left: 10px;
+    float: left;
+}
+
+.nav-items{
+    margin-left: 27px;
+    padding-top: 22px;
+    font-size: .875rem;
+    float: left;
+}
+
+.nav-items a{
+    color: #2d2d2d;
+}
+
+.icons{
+    font-size: 19px;
+    padding-top: 22px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.icons:hover{
+    background-color: #dbe2fd;
+}
+
+.employers{
+    font-size: 15px;
+    color: rgb(194, 187, 187); 
+    padding-left: 20px;
+    margin-top: 22px;
+    margin-bottom: 15px;
+    border-left: 1px solid #d9cccc;
+}
+
+.border{
+    border-bottom: none;
+}
+
+.border:hover{
+    border-bottom: 2px solid rgb(2, 2, 184);
+}
+
+#search{
+    display: flex;
+}
+
+.what{
+    display: flex;
+    border: 1px solid;
+    border-radius: 8px;
+    width: 343px;
+    height: 43px;
+    margin-left: 237px;
+    margin-top: 52px;
+    align-items: center;
+    padding-left: 13px;
+    border-color: #5e5858;
+    padding-right: 20px;
+}
+
+.what1{
+    float: left;
+}
+
+.what:hover{
+    border-color: rgb(108, 108, 238);
+}
+
+.what label{
+    font-size: .875rem;
+    line-height: 1.5;
+    font-weight: 600;
+    color: #2d2d2d;
+}
+
+.what input[type=text]{
+    border: none;
+    width: 265px;
+    padding: 5px;
+    margin-left: 10px;
+}
+
+.what input[type=text]:focus{
+    border: none;
+    outline: none;
+}
+
+.whatbox::placeholder{
+    font-size: 14px;
+    letter-spacing: 0.5px;
+}
+
+.what i{
+    font-size: 11px;
+    color: rgb(99, 96, 96);
+}
+
+.what2{
+    margin-left: 15px !important;
+}
+
+#search button{
+    width: 94px;
+    height: 44px;
+    margin-top: 52px;
+    margin-left: 12px;
+    border-radius: 8px;
+    background-color: #2557a7;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    border: none;
+}
+
+#search button:hover{
+    background-color: #164081;
+    cursor: pointer;
+}
+
+#post p{
+    margin-left: 505px;
+    font-size: 16px;
+    color: #2d2d2d;
+}
+
+#post a{
+    color: #2557a7;
+    font-weight: 700;
+    letter-spacing: 0 !important;
+}
+
+#post a:hover{
+    color: #164081;
+}
+
+#job{
+    border-bottom: 1px solid #d9cccc;
+    display: flex;
+    margin-top: 20px;
+}
+
+#job button{
+    padding: 1rem;
+    width: 288px;
+    font-size: 1.125rem;
+    background-color: white;
+    border: none;
+    color: #2d2d2d;
+    font-family: 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
+}
+
+#job .button1{
+    margin-left: 377px;
+    border-bottom: 4px solid #2557a7;
+    font-weight: 600;
+}
+
+
+#job button:hover{
+    cursor: pointer;
+}
+
+.activity{
+    margin-left: 170px;
+    font-size: 0.875rem;
+    color: #2d2d2d;
+    line-height: 1.25rem;
+    height: 10px;
+}
+
+#main a{
+    cursor: pointer;
+}
+
+.boxes{
+    display: flex;
+    
+}
+
+.box1{
+    width: 450px;
+    height: 285px;
+    border: 1.5px solid #2557a7;
+    border-radius: 10px;
+    margin-left: 160px;
+    padding-left: 12px;
+    padding-top: 10px;
+    padding-right: 10px;
+    margin-top: 15px;
+}
+
+.box1 a{
+    color: #2d2d2d;
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+    letter-spacing: -0.06px;
+    font-weight: 600;
+}
+
+.heading{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 30px;
+}
+
+.heading a:hover{
+    text-decoration: underline;
+}
+
+.heading i{
+    padding: 10px 20px 10px 20px;
+    font-size: 1.3rem;
+    font-weight: 700;
+    border-radius: 0.5rem;
+}
+
+.heading i:hover{
+    background-color: #eef1fe;
+    cursor: pointer;
+}
+
+.salary{
+display: flex;
+}
+
+.time{
+    margin-left: 5px;
+}
+
+.salary p{
+    background-color: #f3f2f1;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: .875rem;
+    font-weight: 600;
+    color: #595959;
+}
+
+.apply{
+    display: flex;
+    align-items: center;
+    height: 14px;
+}
+
+.apply p{
+    margin-left: 5px;
+    font-size: 13px;
+    line-height: 1.25rem;
+    color: #2d2d2d;
+}
+
+.list p{
+    font-size: 13px;
+    line-height: 1.25rem;
+    color: #6f6f6f;
+    height: 30px;
+}
+
+ul {
+    list-style-type: circle;
+    font-size: 13px;
+    color: #6f6f6f;
+}
+
+.days{
+    margin-top: 20px;
+    font-size: 11px;
+    color: #6f6f6f;
+}
+
+.box2{
+    position: static;
+    top: 50%;
+    left: 48%;
+    z-index: 100;
+}
+
+.box2box1{
+    width: 500px;
+    height: 223px;
+    border: 1.5px solid #d9cccc;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    margin-left: 25px;
+    padding-left: 12px;
+    padding-top: 10px;
+    padding-right: 10px;
+    border-bottom: 2px solid #00000014;
+    box-shadow: 0 2px 4px #00000014;
+}
+
+.box2heading{
+    color: #2d2d2d;
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+    letter-spacing: -0.06px;
+    font-weight: 600;
+    margin-top: 25px;
+    height: 15px;
+}
+
+.box2 a{
+    font-size: 14px;
+    color: #2557a7;
+    text-decoration: underline;
+}
+
+.company{
+    height: 27px;
+}
+
+.place{
+    color: #767676;
+    font-size: .875rem;
+    line-height: 20px;
+    height: 27px;
+}
+
+.box2salary{
+    color: #2d2d2d;
+    font-size: .875rem;
+    line-height: 20px;
+}
+
+#main button{
+    width: 117px;
+    height: 43px;
+    margin-top: 25px;
+    border-radius: 8px;
+    background-color: #2557a7;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+}
+
+.box2box1 i{
+    margin-left: 10px;
+    padding: 12px 15px 12px 15px;
+    font-size: 1.3rem;
+    font-weight: 700;
+    border-radius: 0.5rem;
+    background-color: #e4e2e0;
+}
+
+.box2box1 i:hover{
+    cursor: pointer;
+    background-color: #d4d2d0;
+}
+
+.box2box2{
+    width: 500px;
+    height: 223px;
+    border: 1.5px solid #d9cccc;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-left: 25px;
+    padding-left: 12px;
+    padding-top: 10px;
+    padding-right: 10px;
+    overflow: scroll;
+}
+
+.box2box2heading{
+    color: #2d2d2d;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    letter-spacing: -0.06px;
+    font-weight: 600;
+    margin-top: 5px;
+    height: 15px;
+}
+
+.text{
+    font-style: italic;
+    font-size: 0.75rem;
+    color: rgb(118, 118, 118);
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+.box2box2 a{
+    font-style: italic;
+    font-size: 0.75rem;
+    color: rgb(118, 118, 118);
+    font-weight: 400;
+}
+
+.box2box2 i{
+    margin-left: 5px;
+    font-size: 10px;
+}
+
+.box2box2 p{
+    font-size: 13px;
+    line-height: 1.25rem;
+    color: #4e4d4d;
+}
