@@ -5,10 +5,11 @@ function handlebox2(){
     window.addEventListener('scroll',function(){
         if(window.pageYOffset>top){
             box.style.position='fixed';
-            box.style.top='20px';
+            box.style.top='0';
         }
         else{
-            box.style.position='static';
+            box.style.position='absolute';
+            box.style.top=top+'px';
         }
     })
 }
