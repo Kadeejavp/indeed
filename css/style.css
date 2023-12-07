@@ -424,3 +424,24 @@ ul {
     line-height: 1.25rem;
     color: #4e4d4d;
 }
+
+.footer{
+    border-top: 1px solid #d9cccc;
+    padding-top: 10px;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.footer a{
+    color: rgb(58, 55, 55);
+    padding-left: 20px;
+}
+
+.footer a:hover{
+    text-decoration: underline;
+}
+
+.secondrow{
+    margin-top: 40px;
+    padding-bottom: 30px;
+}
